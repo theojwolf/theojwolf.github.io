@@ -32,6 +32,41 @@ header {
   background-color: var(--navy-light);
 }
 
+/* Ring of honor banner: GSH memorial patch + retired numbers */
+.ring-of-honor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  background-color: var(--navy);
+  padding: 0.5rem 1rem;
+}
+
+.gsh-patch {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border: 2px solid var(--orange);
+  border-radius: 50%;
+  color: var(--orange);
+  font-family: 'Space Grotesk', 'Inter', sans-serif;
+  font-size: 0.6rem;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.retired-numbers {
+  font-family: 'Space Grotesk', 'Inter', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  text-align: center;
+}
+
 /* Jersey sleeve stripe: thin white / orange / thin white band */
 .stripe {
   height: 14px;
@@ -205,5 +240,10 @@ main {
 
   .profile-text h1 {
     font-size: 1.75rem;
+  }
+
+  .retired-numbers {
+    font-size: 0.65rem;
+    letter-spacing: 0.04em;
   }
 }
