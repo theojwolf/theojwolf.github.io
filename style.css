@@ -229,6 +229,24 @@ main {
   color: var(--muted);
 }
 
+.review-figure {
+  margin: 1.5rem 0;
+}
+
+.review-figure img {
+  display: block;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+}
+
+.review-figure figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+  text-align: center;
+}
+
 /* Responsive */
 @media (max-width: 600px) {
   nav ul {
