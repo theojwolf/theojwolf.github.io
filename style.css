@@ -210,6 +210,25 @@ main {
   text-decoration: underline;
 }
 
+/* Review / article pages */
+.review {
+  background-color: var(--navy-light);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 2rem;
+}
+
+.review h1 {
+  margin-bottom: 1.25rem;
+  font-size: 2.25rem;
+  color: #ffffff;
+}
+
+.review p {
+  margin-bottom: 1.25rem;
+  color: var(--muted);
+}
+
 /* Responsive */
 @media (max-width: 600px) {
   nav ul {
@@ -238,8 +257,13 @@ main {
     height: 130px;
   }
 
-  .profile-text h1 {
+  .profile-text h1,
+  .review h1 {
     font-size: 1.75rem;
+  }
+
+  .review {
+    padding: 1.5rem;
   }
 
   .retired-numbers {
